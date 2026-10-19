@@ -1,0 +1,11 @@
+"method","tuning","cv_error","test_error"
+"Boosting (gbm)","612 trees, depth 4",0.0505,0.0515
+"Random forest","mtry = 7, 500 trees",0.0473,0.0548
+"Bagging","mtry = 57, 500 trees",0.0548,0.0632
+"SVM (radial)","C = 100, gamma = 0.005",0.0623,0.0678
+"LASSO logistic","lambda.1se, 51 vars",0.0743,0.0782
+"Logistic regression","-",0.0701,0.0808
+"KNN","k = 5",0.0952,0.0887
+"Classification tree","16 leaves (1-SE)",0.0933,0.09
+"LDA","-",0.105,0.1147
+"Naive Bayes","Gaussian",0.3016,0.2914
